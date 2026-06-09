@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patient_Registration", "Patient_Registration\Patient_Registration.csproj", "{6339C10F-09F6-480F-912B-234520449DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment_Scheduling", "Appointment_Scheduling\Appointment_Scheduling.csproj", "{F7C1A7BF-7384-4DD7-817C-E8ACE3F15128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6339C10F-09F6-480F-912B-234520449DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6339C10F-09F6-480F-912B-234520449DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6339C10F-09F6-480F-912B-234520449DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6339C10F-09F6-480F-912B-234520449DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C1A7BF-7384-4DD7-817C-E8ACE3F15128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C1A7BF-7384-4DD7-817C-E8ACE3F15128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C1A7BF-7384-4DD7-817C-E8ACE3F15128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C1A7BF-7384-4DD7-817C-E8ACE3F15128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA0DA494-ECC4-4A13-838B-A2C897B5D4C2}
+	EndGlobalSection
+EndGlobal
