@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Patient Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Patient Registration</h1>
+        <form id="patientForm">
+            <label>Patient Name</label>
+            <input type="text" id="name" required>
+
+            <label>Email</label>
+            <input type="email" id="email" required>
+
+            <label>Phone</label>
+            <input type="tel" id="phone" pattern="[0-9]{10}" required>
+
+            <label>Date of Birth</label>
+            <input type="date" id="dob" required>
+
+            <label>Doctor</label>
+            <select id="doctor">
+                <option value="">Select Doctor</option>
+                <option value="Dr. Mehta">Dr. Mehta - Cardiologist</option>
+                <option value="Dr. Sharma">Dr. Sharma - Orthopedic</option>
+                <option value="Dr. Khan">Dr. Khan - General Physician</option>
+            </select>
+
+            <button type="button" id="checkBtn">Check Doctor Availability</button>
+            <button type="submit">Register Patient</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

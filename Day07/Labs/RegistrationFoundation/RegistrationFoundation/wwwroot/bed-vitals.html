@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Hospital Bed Monitoring Dashboard</title>
+
+    <link rel="stylesheet" href="bed-vitals.css">
+</head>
+<body>
+
+    <h1>Smart Hospital Bed Monitoring Dashboard</h1>
+
+    <p class="subtitle">
+        🟢 Stable | 🟡 Observation | 🔴 Critical
+        (Hover over a bed to view patient details)
+    </p>
+
+    <!-- Critical Bed Count -->
+    <div class="critical-counter">
+        Total Critical Beds:
+        <span id="criticalCount">0</span>
+    </div>
+
+    <!-- Bed Grid -->
+    <div class="bed-container" id="bedContainer"></div>
+
+    <script src="bed-vitals.js"></script>
+
+</body>
+</html>
